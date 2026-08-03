@@ -16,6 +16,7 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 사용할 서비스에서 지원하는 API 인증 방식을 확인하세요.
 다음 표에는 각 서비스 API가 지원하는 인증 방식이 모두 표시되어 있습니다. API 버전 또는 유형에 따라 지원하는 인증 방식이 다를 수 있으므로 사용 중인 버전의 API 가이드에서 지원하는 인증 방식을 확인하세요.
 
+<!-- auth-table:start -->
 | 서비스 카테고리           | 서비스                                          | User Access Key 토큰 | IaaS 토큰 | User Access Key | Appkey | 프로젝트 통합 Appkey | S3 API 자격 증명 |
 | ----------------------- | ---------------------------------------------- | ------------------ | ------- | --------------- | ------ | -------------- | ------------------ |
 | **Compute**             | Instance                                       |                    | O       |                 |        |                |                    |
@@ -53,3 +54,4 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 | **Management**          | Certificate Manager                            | O                  | O       |                 | O      |                |                    |
 | **Governance & Audit**  | CloudTrail                                     |                    |         | O               | O      |                |                    |
 |                         | Resource Watcher                               |                    |         | O               | O      |                |                    |
+<!-- auth-table:end -->

@@ -18,6 +18,7 @@ Check the API authentication methods supported by the service you intend to use.
 The following table shows all the authentication methods supported by each service API. Supported authentication methods may vary depending on the API version or type, so check the authentication methods supported in the API guide for the version you are using.
 
 
+<!-- auth-table:start -->
 | Service Category           | Service                                          | User Access Key Token | IaaS Token | User Access Key | Appkey | Project Integrated Appkey | S3 API Credentials |
 | ----------------------- | ---------------------------------------------- | ------------------ | ------- | --------------- | ------ | -------------- | ------------------ |
 | **Compute**             | Instance                                       |                    | O       |                 |        |                |                    |
@@ -85,3 +86,4 @@ The following table shows all the authentication methods supported by each servi
 |                         | Private CA                                     | O                  |         |                 |        |                |                    |
 | **Governance & Audit**  | CloudTrail                                     |                    |         | O               | O      |                |                    |
 |                         | Resource Watcher                               |                    |         | O               | O      |                |                    |
+<!-- auth-table:end -->
