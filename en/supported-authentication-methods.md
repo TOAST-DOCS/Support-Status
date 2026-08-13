@@ -91,5 +91,5 @@ The following table shows all the authentication methods supported by each servi
 |  | Private CA | O |  |  |  |  |  |
 | **Bill** | eTax |  |  |  | O |  |  |
 | **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
-|  | Resource Watcher |  |  | O | O |  |  |
+|  | Resource Watcher |  |  | O | O |  | O |
 <!-- auth-table:end -->
