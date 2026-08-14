@@ -91,5 +91,5 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 |  | Private CA | O |  |  |  |  |  |
 | **Bill** | eTax |  |  |  | O |  |  |
 | **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
-|  | Resource Watcher |  |  | O | O |  | O |
+|  | Resource Watcher |  | O | O | O |  | O |
 <!-- auth-table:end -->
