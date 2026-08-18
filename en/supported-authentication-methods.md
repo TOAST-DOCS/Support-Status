@@ -22,73 +22,66 @@ The following table shows all the authentication methods supported by each servi
 | Service Category | Service | User Access Key Token | IaaS Token | User Access Key | Appkey | Project Integrated Appkey | S3 API Credentials |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Compute** | Instance |  | O |  |  |  |  |
-|  | Key Pair |  | O |  |  |  |  |
-|  | GPU Instance |  | O |  |  |  |  |
+|  | Cloud Functions | O |  |  |  |  |  |
 |  | Image |  | O |  |  |  |  |
 |  | Virtual Desktop |  | O |  |  |  |  |
 | **Container** | NHN Kubernetes Service(NKS) |  | O |  |  |  |  |
 |  | NHN Container Registry(NCR) | O |  | O |  |  |  |
 |  | NHN Container Service(NCS) | O |  |  |  |  |  |
 | **Network** | VPC |  | O |  |  |  |  |
-|  | Subnet |  | O |  |  |  |  |
-|  | Network Interface |  | O |  |  |  |  |
 |  | Flow Log |  | O |  |  |  |  |
-|  | Routing |  | O |  |  |  |  |
 |  | Floating IP |  | O |  |  |  |  |
 |  | Network ACL |  | O |  |  |  |  |
 |  | Security Groups |  | O |  |  |  |  |
 |  | Load Balancer |  | O |  |  |  |  |
 |  | Transit Hub |  | O |  |  |  |  |
 |  | Internet Gateway |  | O |  |  |  |  |
-|  | Peering Gateway |  | O |  |  |  |  |
 |  | Colocation Gateway |  | O |  |  |  |  |
 |  | NAT Gateway |  | O |  |  |  |  |
-|  | VPN Gateway(Site-to-Site VPN) |  | O |  |  |  |  |
 |  | Service Gateway |  | O |  |  |  |  |
 |  | Traffic Mirroring |  | O |  |  |  |  |
 |  | Private DNS |  | O |  |  |  |  |
-|  | DNS Plus |  |  |  | O | O |  |
+|  | DNS Plus | O |  |  | O | O |  |
 | **Storage** | Block Storage |  | O |  |  |  |  |
 |  | NAS |  | O |  |  |  |  |
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
 | **Monitoring** | Service Monitoring |  |  |  | O |  |  |
-| **Game** | Leaderboard |  |  |  | O |  |  |
+| **Game** | Gamebase |  |  |  | O |  |  |
+|  | Leaderboard |  |  |  | O |  |  |
 |  | Launching |  |  |  | O |  |  |
-|  | Smart Downloader |  |  |  | O |  |  |
 | **Security** | NHN AppGuard |  |  | O | O |  |  |
 |  | Server Security Check |  |  |  | O |  |  |
-|  | Security Monitoring |  |  |  | O |  |  |
+|  | Security Monitoring | O |  |  |  |  |  |
 |  | Secure Key Manager | O |  | O | O | O |  |
 |  | Security Advisor |  |  |  | O |  |  |
-| **Content Delivery** | CDN |  |  |  | O | O |  |
-|  | Image Manager |  |  |  | O | O |  |
-| **Notification** | Notification Hub | O |  |  |  |  |  |
-|  | Push |  |  |  | O |  |  |
-|  | SMS |  |  |  | O |  |  |
-|  | RCS Bizmessage |  |  |  | O |  |  |
-|  | Email |  |  |  | O |  |  |
-|  | KakaoTalk Bizmessage |  |  |  | O |  |  |
+| **Content Delivery** | CDN | O |  |  | O | O |  |
+|  | Image Manager | O |  |  | O | O |  |
+| **Notification** | Notification Hub | O |  |  |  | O |  |
+|  | Push |  |  | O | O | O |  |
+|  | SMS |  |  |  | O | O |  |
+|  | RCS Bizmessage |  |  |  | O | O |  |
+|  | Email |  |  |  | O | O |  |
+|  | KakaoTalk Bizmessage |  |  |  | O | O |  |
 | **AI Service** | OCR | O |  |  | O | O |  |
-|  | Text to Speech |  |  |  | O | O |  |
-|  | Speech to Text |  |  |  | O | O |  |
-| **Machine Learning** | AI EasyMaker | O |  |  |  |  |  |
+|  | Text to Speech | O |  |  | O | O |  |
+|  | Speech to Text | O |  |  | O | O |  |
 | **Application Service** | ROLE |  |  |  | O | O |  |
-|  | API Gateway |  |  |  | O | O |  |
+|  | API Gateway | O |  |  | O | O |  |
 |  | RTCS |  |  |  | O |  |  |
 |  | ShortURL |  |  |  | O |  |  |
 |  | File-Crafter |  |  |  | O |  |  |
 | **Search** | Cloud Search |  |  |  | O |  |  |
 |  | Autocomplete |  |  |  | O |  |  |
 |  | Corporation Search |  |  |  | O |  |  |
-| **Data & Analytics** | Log & Crash Search |  |  |  | O |  |  |
+| **Data & Analytics** | Log & Crash Search | O |  |  | O |  |  |
+|  | EasyQueue | O |  |  |  |  |  |
 |  | Data Lake Storage |  |  |  |  |  | O |
 | **Dev Tools** | Pipeline | O |  | O |  |  |  |
 |  | Deploy | O |  | O | O |  |  |
-| **Management** | Certificate Manager | O | O |  | O |  |  |
+| **Management** | Certificate Manager | O |  | O | O |  |  |
 |  | Private CA | O |  |  |  |  |  |
-| **Bill** | eTax |  |  |  | O |  |  |
 | **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
 |  | Resource Watcher |  |  | O | O |  |  |
 <!-- auth-table:end -->
