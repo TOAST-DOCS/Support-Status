@@ -46,6 +46,7 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
+|  | Valkey Instance |  | O | O | O |  | O |
 | **Security** | Security Monitoring |  |  |  | O |  |  |
 |  | Secure Key Manager | O |  | O | O | O |  |
 |  | Security Advisor |  |  |  | O |  |  |
