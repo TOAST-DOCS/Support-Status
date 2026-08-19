@@ -47,7 +47,7 @@ Public APIごとにサポートする認証方式が異なり、一部の認証�
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
-|  | Valkey Instance |  |  |  | O |  |  |
+|  | Valkey Instance |  |  |  | O | O |  |
 | **Monitoring** | Service Monitoring |  |  |  | O |  |  |
 | **Game** | Gamebase |  |  |  | O |  |  |
 |  | Leaderboard |  |  |  | O |  |  |
