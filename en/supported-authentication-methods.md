@@ -47,7 +47,7 @@ The following table shows all the authentication methods supported by each servi
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
-|  | Valkey Instance |  |  |  | O |  |  |
+|  | Valkey Instance |  |  |  | O | O |  |
 | **Monitoring** | Service Monitoring |  |  |  | O |  |  |
 | **Game** | Gamebase |  |  |  | O |  |  |
 |  | Leaderboard |  |  |  | O |  |  |
