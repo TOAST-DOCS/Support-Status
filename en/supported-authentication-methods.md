@@ -83,6 +83,6 @@ The following table shows all the authentication methods supported by each servi
 |  | Deploy | O |  | O | O |  |  |
 | **Management** | Certificate Manager | O |  | O | O |  |  |
 |  | Private CA | O |  |  |  |  |  |
-| **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
+| **Governance & Audit** | CloudTrail |  | O | O | O |  |  |
 |  | Resource Watcher |  |  | O | O |  |  |
 <!-- auth-table:end -->
