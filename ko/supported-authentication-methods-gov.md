@@ -43,16 +43,11 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
-| **Monitoring** | Service Monitoring |  |  |  | O |  |  |
-| **Security** | Security Monitoring | O |  |  |  |  |  |
-|  | Server Security Check |  |  |  | O |  |  |
+| **Security** | Security Monitoring |  |  |  | O |  |  |
 |  | Secure Key Manager | O |  | O | O | O |  |
 |  | Security Advisor |  |  |  | O |  |  |
 | **Content Delivery** | CDN | O |  |  | O | O |  |
-| **AI Service** | OCR | O |  |  | O | O |  |
-| **Application Service** | ROLE |  |  |  | O | O |  |
-|  | API Gateway | O |  |  | O | O |  |
-| **Search** | Corporation Search |  |  |  | O |  |  |
+| **Application Service** | API Gateway | O |  |  | O | O |  |
 | **Data & Analytics** | Log & Crash Search | O |  |  | O |  |  |
 | **Dev Tools** | Pipeline | O |  | O |  |  |  |
 |  | Deploy | O |  | O | O |  |  |
