@@ -83,6 +83,6 @@ Public APIごとにサポートする認証方式が異なり、一部の認証�
 |  | Deploy | O |  | O | O |  |  |
 | **Management** | Certificate Manager | O |  | O | O |  |  |
 |  | Private CA | O |  |  |  |  |  |
-| **Governance & Audit** | CloudTrail | O | O | O | O |  |  |
+| **Governance & Audit** | CloudTrail | O |  | O | O |  |  |
 |  | Resource Watcher |  |  | O | O |  |  |
 <!-- auth-table:end -->
