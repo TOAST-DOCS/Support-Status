@@ -17,41 +17,41 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 다음 표에는 각 서비스 API가 지원하는 인증 방식이 모두 표시되어 있습니다. API 버전 또는 유형에 따라 지원하는 인증 방식이 다를 수 있으므로 사용 중인 버전의 API 가이드에서 지원하는 인증 방식을 확인하세요.
 
 <!-- auth-table:start -->
-| 서비스 카테고리           | 서비스                                          | User Access Key 토큰 | IaaS 토큰 | User Access Key | Appkey | 프로젝트 통합 Appkey | S3 API 자격 증명 |
-| ----------------------- | ---------------------------------------------- | ------------------ | ------- | --------------- | ------ | -------------- | ------------------ |
-| **Compute**             | Instance                                       |                    | O       |                 |        |                |                    |
-|                         | Image                                          |                    | O       |                 |        |                |                    |
-|                         | Virtual Desktop                                |                    | O       |                 |        |                |                    |
-| **Container**           | NHN Kubernetes Service (NKS)                   |                    | O       |                 |        |                |                    |
-|                         | NHN Container Registry (NCR)                   | O                  |         | O               |        |                |                    |
-|                         | NHN Container Service (NCS)                    | O                  |         |                 |        |                |                    |
-| **Network**             | VPC                                            |                    | O       |                 |        |                |                    |
-|                         | Floating IP                                    |                    | O       |                 |        |                |                    |
-|                         | Network ACL                                    |                    | O       |                 |        |                |                    |
-|                         | Security Groups                                |                    | O       |                 |        |                |                    |
-|                         | Load Balancer                                  |                    | O       |                 |        |                |                    |
-|                         | Transit Hub                                    |                    | O       |                 |        |                |                    |
-|                         | Internet Gateway                               |                    | O       |                 |        |                |                    |
-|                         | Colocation Gateway                             |                    | O       |                 |        |                |                    |
-|                         | NAT Gateway                                    |                    | O       |                 |        |                |                    |
-|                         | Service Gateway                                |                    | O       |                 |        |                |                    |
-|                         | Traffic Mirroring                              |                    | O       |                 |        |                |                    |
-|                         | Private DNS                                    |                    | O       |                 |        |                |                    |
-|                         | DNS Plus                                       |                    |         |                 | O      | O              |                    |
-| **Storage**             | Block Storage                                  |                    | O       |                 |        |                |                    |
-|                         | NAS                                            |                    | O       |                 |        |                |                    |
-|                         | Object Storage                                 |                    | O       |                 |        |                | O                  |
-| **Database**            | RDS for MySQL                                  | O                  |         | O               | O      | O              |                    |
-|                         | RDS for MariaDB                                | O                  |         | O               | O      | O              |                    |
-| **Security**            | Security Monitoring                            |                    |         |                 | O      |                |                    |
-|                         | Secure Key Manager                             | O                  |         | O               | O      | O              |                    |
-|                         | Security Advisor                               |                    |         |                 | O      |                |                    |
-| **Content Delivery**    | CDN                                            |                    |         |                 | O      | O              |                    |
-| **Application Service** | API Gateway                                    |                    |         |                 | O      | O              |                    |
-| **Data & Analytics**    | Log & Crash Search                             |                    |         |                 | O      |                |                    |
-| **Dev Tools**           | Pipeline                                       | O                  |         | O               |        |                |                    |
-|                         | Deploy                                         | O                  |         | O               | O      |                |                    |
-| **Management**          | Certificate Manager                            | O                  | O       |                 | O      |                |                    |
-| **Governance & Audit**  | CloudTrail                                     |                    |         | O               | O      |                |                    |
-|                         | Resource Watcher                               |                    |         | O               | O      |                |                    |
+| 서비스 카테고리 | 서비스 | User Access Key 토큰 | IaaS 토큰 | User Access Key | Appkey | 프로젝트 통합 Appkey | S3 API 자격 증명 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Compute** | Instance |  | O |  |  |  |  |
+|  | Image |  | O |  |  |  |  |
+|  | Virtual Desktop |  | O |  |  |  |  |
+| **Container** | NHN Kubernetes Service(NKS) |  | O |  |  |  |  |
+|  | NHN Container Registry(NCR) | O |  | O |  |  |  |
+|  | NHN Container Service(NCS) | O |  |  |  |  |  |
+| **Network** | VPC |  | O |  |  |  |  |
+|  | Floating IP |  | O |  |  |  |  |
+|  | Network ACL |  | O |  |  |  |  |
+|  | Security Groups |  | O |  |  |  |  |
+|  | Load Balancer |  | O |  |  |  |  |
+|  | Transit Hub |  | O |  |  |  |  |
+|  | Internet Gateway |  | O |  |  |  |  |
+|  | Colocation Gateway |  | O |  |  |  |  |
+|  | NAT Gateway |  | O |  |  |  |  |
+|  | Service Gateway |  | O |  |  |  |  |
+|  | Traffic Mirroring |  | O |  |  |  |  |
+|  | Private DNS |  | O |  |  |  |  |
+|  | DNS Plus | O |  |  | O | O |  |
+| **Storage** | Block Storage |  | O |  |  |  |  |
+|  | NAS |  | O |  |  |  |  |
+|  | Object Storage |  | O |  |  |  | O |
+| **Database** | RDS for MySQL | O |  | O | O | O |  |
+|  | RDS for MariaDB | O |  | O | O | O |  |
+| **Security** | Security Monitoring |  |  |  | O |  |  |
+|  | Secure Key Manager | O |  | O | O | O |  |
+|  | Security Advisor |  |  |  | O |  |  |
+| **Content Delivery** | CDN | O |  |  | O | O |  |
+| **Application Service** | API Gateway | O |  |  | O | O |  |
+| **Data & Analytics** | Log & Crash Search | O |  |  | O |  |  |
+| **Dev Tools** | Pipeline | O |  | O |  |  |  |
+|  | Deploy | O |  | O | O |  |  |
+| **Management** | Certificate Manager | O |  | O | O |  |  |
+| **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
+|  | Resource Watcher |  |  | O | O |  |  |
 <!-- auth-table:end -->
