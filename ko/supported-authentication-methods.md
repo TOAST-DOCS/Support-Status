@@ -83,6 +83,6 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 |  | Deploy | O |  | O | O |  |  |
 | **Management** | Certificate Manager | O |  | O | O |  |  |
 |  | Private CA | O |  |  |  |  |  |
-| **Governance & Audit** | CloudTrail | O |  | O | O |  |  |
+| **Governance & Audit** | CloudTrail |  |  | O | O |  |  |
 |  | Resource Watcher |  |  | O | O |  |  |
 <!-- auth-table:end -->
