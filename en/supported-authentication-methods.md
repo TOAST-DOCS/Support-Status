@@ -46,7 +46,7 @@ The following table shows all the authentication methods supported by each servi
 |  | NAS |  | O |  |  |  |  |
 |  | Object Storage |  | O |  |  |  | O |
 | **Database** | RDS for MySQL | O |  | O | O | O |  |
-|  | RDS for PostgreSQL |  |  | O | O | O |  |
+|  | RDS for PostgreSQL |  |  |  | O |  |  |
 |  | RDS for MariaDB | O |  | O | O | O |  |
 | **Monitoring** | Service Monitoring |  |  |  | O |  |  |
 | **Game** | Gamebase |  |  |  | O |  |  |
