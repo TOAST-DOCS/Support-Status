@@ -64,7 +64,8 @@ Public API마다 지원하는 인증 방식이 다르며, 일부 인증 방식�
 |  | RCS Bizmessage |  |  |  | O | O |  |
 |  | Email |  |  |  | O | O |  |
 |  | KakaoTalk Bizmessage |  |  |  | O | O |  |
-| **AI Service** | OCR | O |  |  | O | O |  |
+| **AI Service** | Face Recognition | O |  |  | O | O |  |
+|  | OCR | O |  |  | O | O |  |
 |  | Text to Speech | O |  |  | O | O |  |
 |  | Speech to Text | O |  |  | O | O |  |
 | **Application Service** | ROLE |  |  |  | O | O |  |
