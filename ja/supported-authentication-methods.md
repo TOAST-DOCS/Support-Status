@@ -70,7 +70,8 @@ Public APIごとにサポートする認証方式が異なり、一部の認証�
 |  | RCS Bizmessage |  |  |  | O |  |  |
 |  | Email |  |  |  | O |  |  |
 |  | KakaoTalk Bizmessage |  |  |  | O |  |  |
-| **AI Service** | OCR | O |  |  | O | O |  |
+| **AI Service** | Face Recognition | O |  |  | O | O |  |
+|  | OCR | O |  |  | O | O |  |
 |  | Text to Speech |  |  |  | O | O |  |
 |  | Speech to Text |  |  |  | O | O |  |
 | **Machine Learning** | AI EasyMaker | O |  |  |  |  |  |
